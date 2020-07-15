@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Keyboard)(type Legacy)(uri ${KIPRJMOD}/lib/Keyboard.lib)(options "")(descr "Some additionnal components for keyboards"))
+)
