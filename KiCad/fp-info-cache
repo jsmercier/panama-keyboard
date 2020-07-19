@@ -1,4 +1,4 @@
-18508393493873717
+18509988595883170
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -57473,6 +57473,13 @@ NetTie
 NetTie-4_THT_Pad1.0mm
 Net tie, 4 pin, 1.0mm round THT pads
 net tie
+0
+4
+4
+OLED
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
