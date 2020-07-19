@@ -1940,10 +1940,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 $EndComp
 Text Notes 3700 3900 1    157  ~ 31
 SWITCH MATRIX
-Text Notes 2650 5550 0    157  ~ 31
-MCU
-Text Notes 5300 5600 0    157  ~ 31
-USB
 Text Notes 10200 5750 0    157  ~ 31
 UNDERGLOW
 Text Notes 6600 9850 0    157  ~ 31
@@ -1965,13 +1961,13 @@ F 3 "~" H 8400 10560 50  0001 C CNN
 	1    8400 10300
 	1    0    0    -1  
 $EndComp
-Text GLabel 12500 3000 3    50   Input ~ 10
+Text GLabel 12500 3000 3    50   Input ~ 0
 enc-sw-in
-Text GLabel 12300 3200 1    50   Input ~ 10
+Text GLabel 12300 3200 1    50   Input ~ 0
 enc-sw-out
-Text GLabel 8700 10200 2    50   Input ~ 10
+Text GLabel 8700 10200 2    50   Input ~ 0
 enc-sw-in
-Text GLabel 8700 10400 2    50   Input ~ 10
+Text GLabel 8700 10400 2    50   Input ~ 0
 enc-sw-out
 $Comp
 L Switch:SW_Push BOOT?
@@ -2525,4 +2521,32 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11300 6025 50  0001
 	1    11200 6400
 	1    0    0    -1  
 $EndComp
+Text Notes 5300 5600 0    157  ~ 31
+USB
+Text Notes 2650 5550 0    157  ~ 31
+MCU
+Text GLabel 10900 6400 0    50   Input ~ 0
+LED
+Text GLabel 3600 9400 2    50   Input ~ 0
+MISO
+Text GLabel 3600 9500 2    50   Input ~ 0
+MOSI
+Text GLabel 3600 9600 2    50   Input ~ 0
+SCK
+Text GLabel 3650 9150 2    50   Input ~ 0
+boot
+Text GLabel 3650 8900 2    50   Input ~ 0
+SCL
+Text GLabel 3650 8700 2    50   Input ~ 0
+SDA
+Text GLabel 3700 8500 2    50   Input ~ 0
+LED
+Text GLabel 3700 10050 2    50   Input ~ 0
+enc-A
+Text GLabel 3750 10250 2    50   Input ~ 0
+enc-B
+Text GLabel 3700 8250 2    50   Input ~ 0
+D-
+Text GLabel 3650 8050 2    50   Input ~ 0
+D+
 $EndSCHEMATC
