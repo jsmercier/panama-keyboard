@@ -2536,7 +2536,7 @@ Text GLabel 3750 10250 2    50   Input ~ 0
 enc-B
 Text GLabel 3700 8250 2    50   Input ~ 0
 D-
-Text GLabel 3650 8050 2    50   Input ~ 0
+Text GLabel 3300 9800 2    50   Input ~ 0
 D+
 $Comp
 L Device:R_Small R?
