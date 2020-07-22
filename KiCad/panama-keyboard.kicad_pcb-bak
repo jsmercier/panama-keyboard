@@ -3039,7 +3039,7 @@
   )
 
   (module Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm (layer F.Cu) (tedit 5A74C8CB) (tstamp 5F17DFB2)
-    (at 437.35625 129.38125)
+    (at 272.525 130.87875)
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5F28E0BA)
