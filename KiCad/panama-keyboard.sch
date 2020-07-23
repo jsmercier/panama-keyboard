@@ -1916,7 +1916,7 @@ U 1 1 5F24C56F
 P 2700 8600
 F 0 "U2" H 3100 6650 50  0000 C CNN
 F 1 "ATmega32A-PU" H 3150 6550 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 2700 8600 50  0001 C CIN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 2700 8600 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 2700 8600 50  0001 C CNN
 	1    2700 8600
 	1    0    0    -1  
@@ -2462,7 +2462,7 @@ U 1 1 5F41CC1D
 P 8550 9000
 F 0 "DS1" H 8550 9275 50  0000 C CNN
 F 1 "SSD1306-0.91-128x32" H 8550 9184 50  0000 C CNN
-F 2 "OLED:PinHeader_1x04_P2.54mm_Vertical" H 8550 9000 50  0001 C CNN
+F 2 "OLED:OLED_0.91in_128x32" H 8550 9000 50  0001 C CNN
 F 3 "" H 8550 9000 50  0001 C CNN
 	1    8550 9000
 	1    0    0    -1  
