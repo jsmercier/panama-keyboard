@@ -1336,12 +1336,12 @@ $EndComp
 $Comp
 L Keyboard:MX RAlt1
 U 1 1 5F1DF75E
-P 6850 4600
-F 0 "RAlt1" H 6883 4781 60  0000 C CNN
-F 1 "MX" H 6825 4650 20  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6225 4575 60  0001 C CNN
-F 3 "" H 6225 4575 60  0001 C CNN
-	1    6850 4600
+P 8800 4600
+F 0 "RAlt1" H 8833 4781 60  0000 C CNN
+F 1 "MX" H 8775 4650 20  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8175 4575 60  0001 C CNN
+F 3 "" H 8175 4575 60  0001 C CNN
+	1    8800 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1358,74 +1358,8 @@ $EndComp
 $Comp
 L Device:D_Small D65
 U 1 1 5F1DF76A
-P 6800 4850
-F 0 "D65" H 6850 5050 50  0000 R CNN
-F 1 "D_Small" H 6950 4950 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 6800 4850 50  0001 C CNN
-F 3 "~" V 6800 4850 50  0001 C CNN
-	1    6800 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Keyboard:MX Func1
-U 1 1 5F1DF770
-P 7350 4600
-F 0 "Func1" H 7383 4781 60  0000 C CNN
-F 1 "MX" H 7325 4650 20  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6725 4575 60  0001 C CNN
-F 3 "" H 6725 4575 60  0001 C CNN
-	1    7350 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D66
-U 1 1 5F1DF776
-P 7300 4850
-F 0 "D66" H 7350 5050 50  0000 R CNN
-F 1 "D_Small" H 7450 4950 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 7300 4850 50  0001 C CNN
-F 3 "~" V 7300 4850 50  0001 C CNN
-	1    7300 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Keyboard:MX ArrowLeft1
-U 1 1 5F1DF77C
-P 8300 4600
-F 0 "ArrowLeft1" H 8333 4781 60  0000 C CNN
-F 1 "MX" H 8275 4650 20  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7675 4575 60  0001 C CNN
-F 3 "" H 7675 4575 60  0001 C CNN
-	1    8300 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Keyboard:MX ArrowDown1
-U 1 1 5F1DF782
-P 8800 4600
-F 0 "ArrowDown1" H 8833 4781 60  0000 C CNN
-F 1 "MX" H 8775 4650 20  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8175 4575 60  0001 C CNN
-F 3 "" H 8175 4575 60  0001 C CNN
-	1    8800 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D68
-U 1 1 5F1DF788
-P 8250 4850
-F 0 "D68" H 8300 5050 50  0000 R CNN
-F 1 "D_Small" H 8400 4950 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 8250 4850 50  0001 C CNN
-F 3 "~" V 8250 4850 50  0001 C CNN
-	1    8250 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D69
-U 1 1 5F1DF78E
 P 8750 4850
-F 0 "D69" H 8800 5050 50  0000 R CNN
+F 0 "D65" H 8800 5050 50  0000 R CNN
 F 1 "D_Small" H 8900 4950 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 8750 4850 50  0001 C CNN
 F 3 "~" V 8750 4850 50  0001 C CNN
@@ -1433,10 +1367,10 @@ F 3 "~" V 8750 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Keyboard:MX ArrowRight1
-U 1 1 5F1DF794
+L Keyboard:MX Func1
+U 1 1 5F1DF770
 P 9300 4600
-F 0 "ArrowRight1" H 9333 4781 60  0000 C CNN
+F 0 "Func1" H 9333 4781 60  0000 C CNN
 F 1 "MX" H 9275 4650 20  0001 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8675 4575 60  0001 C CNN
 F 3 "" H 8675 4575 60  0001 C CNN
@@ -1444,14 +1378,58 @@ F 3 "" H 8675 4575 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D70
-U 1 1 5F1DF79A
+L Device:D_Small D66
+U 1 1 5F1DF776
 P 9250 4850
-F 0 "D70" H 9300 5050 50  0000 R CNN
+F 0 "D66" H 9300 5050 50  0000 R CNN
 F 1 "D_Small" H 9400 4950 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 9250 4850 50  0001 C CNN
 F 3 "~" V 9250 4850 50  0001 C CNN
 	1    9250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Keyboard:MX ArrowLeft1
+U 1 1 5F1DF77C
+P 10300 4600
+F 0 "ArrowLeft1" H 10333 4781 60  0000 C CNN
+F 1 "MX" H 10275 4650 20  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9675 4575 60  0001 C CNN
+F 3 "" H 9675 4575 60  0001 C CNN
+	1    10300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard:MX ArrowDown1
+U 1 1 5F1DF782
+P 10850 4600
+F 0 "ArrowDown1" H 10883 4781 60  0000 C CNN
+F 1 "MX" H 10825 4650 20  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10225 4575 60  0001 C CNN
+F 3 "" H 10225 4575 60  0001 C CNN
+	1    10850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D68
+U 1 1 5F1DF788
+P 10250 4850
+F 0 "D68" H 10300 5050 50  0000 R CNN
+F 1 "D_Small" H 10400 4950 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 10250 4850 50  0001 C CNN
+F 3 "~" V 10250 4850 50  0001 C CNN
+	1    10250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D69
+U 1 1 5F1DF78E
+P 10800 4850
+F 0 "D69" H 10850 5050 50  0000 R CNN
+F 1 "D_Small" H 10950 4950 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 10800 4850 50  0001 C CNN
+F 3 "~" V 10800 4850 50  0001 C CNN
+	1    10800 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1512,8 +1490,6 @@ Connection ~ 5300 1850
 Wire Wire Line
 	5800 1850 6300 1850
 Connection ~ 5800 1850
-Wire Wire Line
-	6350 1850 6800 1850
 Connection ~ 6800 1850
 Wire Wire Line
 	6800 1850 7300 1850
@@ -1684,16 +1660,7 @@ Wire Wire Line
 Connection ~ 5800 4950
 Wire Wire Line
 	5800 4950 6300 4950
-Connection ~ 6300 4950
-Wire Wire Line
-	6300 4950 6800 4950
-Connection ~ 6800 4950
-Connection ~ 8250 4950
-Wire Wire Line
-	8250 4950 8750 4950
 Connection ~ 8750 4950
-Wire Wire Line
-	8750 4950 9250 4950
 Wire Wire Line
 	5500 1200 5500 1450
 Connection ~ 5500 1450
@@ -1747,9 +1714,8 @@ Wire Wire Line
 Connection ~ 7000 3000
 Wire Wire Line
 	7000 3000 7000 3800
-Connection ~ 7000 3800
 Wire Wire Line
-	7000 3800 7000 4550
+	8950 3800 8950 4550
 Wire Wire Line
 	7500 1200 7500 1450
 Connection ~ 7500 1450
@@ -1761,9 +1727,8 @@ Wire Wire Line
 Connection ~ 7500 3000
 Wire Wire Line
 	7500 3000 7500 3800
-Connection ~ 7500 3800
 Wire Wire Line
-	7500 3800 7500 4550
+	9450 3800 9450 4550
 Wire Wire Line
 	7950 1200 7950 1450
 Connection ~ 7950 1450
@@ -1776,7 +1741,7 @@ Connection ~ 7950 3000
 Wire Wire Line
 	7950 3000 7950 3800
 Wire Wire Line
-	8450 3800 8450 4550
+	10450 3800 10450 4550
 Wire Wire Line
 	8450 1200 8450 1450
 Connection ~ 8450 1450
@@ -1788,9 +1753,8 @@ Wire Wire Line
 Connection ~ 8450 3000
 Wire Wire Line
 	8450 3000 8450 3800
-Connection ~ 8450 3800
 Wire Wire Line
-	8950 3800 8950 4550
+	11000 3800 11000 4550
 Wire Wire Line
 	8950 1200 8950 1450
 Connection ~ 8950 1450
@@ -1802,9 +1766,6 @@ Wire Wire Line
 Connection ~ 8950 3000
 Wire Wire Line
 	8950 3000 8950 3800
-Connection ~ 8950 3800
-Wire Wire Line
-	9450 3800 9450 4550
 Wire Wire Line
 	9450 1200 9450 1450
 Connection ~ 9450 1450
@@ -2370,7 +2331,7 @@ U 1 1 5F3AAD6F
 P 5100 9300
 F 0 "J3" H 4771 9396 50  0000 R CNN
 F 1 "AVR-ISP-6" H 4771 9305 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 4850 9350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" V 4850 9350 50  0001 C CNN
 F 3 " ~" H 3825 8750 50  0001 C CNN
 	1    5100 9300
 	1    0    0    -1  
@@ -2920,40 +2881,34 @@ F 3 "" H 7175 2225 60  0001 C CNN
 	1    7800 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 9450 3800
 Wire Wire Line
-	6800 4950 7300 4950
+	8750 4950 9250 4950
 $Comp
 L Keyboard:MX RCtrl1
 U 1 1 5F24CC72
-P 7800 4600
-F 0 "RCtrl1" H 7833 4781 60  0000 C CNN
-F 1 "MX" H 7775 4650 20  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7175 4575 60  0001 C CNN
-F 3 "" H 7175 4575 60  0001 C CNN
-	1    7800 4600
+P 9800 4600
+F 0 "RCtrl1" H 9833 4781 60  0000 C CNN
+F 1 "MX" H 9775 4650 20  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9175 4575 60  0001 C CNN
+F 3 "" H 9175 4575 60  0001 C CNN
+	1    9800 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D67
 U 1 1 5F24CC78
-P 7750 4850
-F 0 "D67" H 7800 5050 50  0000 R CNN
-F 1 "D_Small" H 7900 4950 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 7750 4850 50  0001 C CNN
-F 3 "~" V 7750 4850 50  0001 C CNN
-	1    7750 4850
+P 9750 4850
+F 0 "D67" H 9800 5050 50  0000 R CNN
+F 1 "D_Small" H 9900 4950 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 9750 4850 50  0001 C CNN
+F 3 "~" V 9750 4850 50  0001 C CNN
+	1    9750 4850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7950 3800 7950 4550
-Connection ~ 7950 3800
+	9950 3800 9950 4550
 Wire Wire Line
-	7750 4950 7300 4950
-Connection ~ 7300 4950
-Wire Wire Line
-	7750 4950 8250 4950
-Connection ~ 7750 4950
+	9750 4950 10250 4950
 $Comp
 L Keyboard:WS2811 D71
 U 1 1 5F174D3F
@@ -2981,4 +2936,50 @@ LED
 Wire Wire Line
 	10950 7000 11750 7000
 NoConn ~ 12050 7850
+Wire Wire Line
+	11500 3800 11500 4550
+Wire Wire Line
+	10800 4950 11300 4950
+$Comp
+L Device:D_Small D70
+U 1 1 5F1DF79A
+P 11300 4850
+F 0 "D70" H 11350 5050 50  0000 R CNN
+F 1 "D_Small" H 11450 4950 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 11300 4850 50  0001 C CNN
+F 3 "~" V 11300 4850 50  0001 C CNN
+	1    11300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Keyboard:MX ArrowRight1
+U 1 1 5F1DF794
+P 11350 4600
+F 0 "ArrowRight1" H 11383 4781 60  0000 C CNN
+F 1 "MX" H 11325 4650 20  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10725 4575 60  0001 C CNN
+F 3 "" H 10725 4575 60  0001 C CNN
+	1    11350 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 11500 3800
+Connection ~ 10800 4950
+Connection ~ 11000 3800
+Connection ~ 10450 3800
+Wire Wire Line
+	10250 4950 10800 4950
+Connection ~ 10250 4950
+Connection ~ 9750 4950
+Connection ~ 9950 3800
+Connection ~ 8950 3800
+Connection ~ 9450 3800
+Wire Wire Line
+	6300 4950 8750 4950
+Connection ~ 6300 4950
+Wire Wire Line
+	9250 4950 9750 4950
+Connection ~ 9250 4950
+Wire Wire Line
+	6300 1850 6800 1850
+Connection ~ 6300 1850
 $EndSCHEMATC
