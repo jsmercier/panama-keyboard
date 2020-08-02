@@ -1490,8 +1490,6 @@ Connection ~ 5300 1850
 Wire Wire Line
 	5800 1850 6300 1850
 Connection ~ 5800 1850
-Wire Wire Line
-	6350 1850 6800 1850
 Connection ~ 6800 1850
 Wire Wire Line
 	6800 1850 7300 1850
@@ -1886,7 +1884,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 $EndComp
 Text Notes 3700 3900 1    157  ~ 31
 SWITCH MATRIX
-Text Notes 13350 3750 0    157  ~ 31
+Text Notes 12550 6100 0    157  ~ 31
 UNDERGLOW
 Text Notes 6600 9850 0    157  ~ 31
 BOOT
@@ -2460,23 +2458,13 @@ Text Notes 5300 5550 0    157  ~ 31
 USB
 Text Notes 2650 5550 0    157  ~ 31
 MCU
-Text GLabel 3300 8400 2    50   Input ~ 0
-MISO
-Text GLabel 3300 8300 2    50   Input ~ 0
-MOSI
-Text GLabel 3300 8500 2    50   Input ~ 0
-SCK
-Text GLabel 3300 10200 2    50   Input ~ 0
+Text GLabel 3300 10100 2    50   Input ~ 0
 boot
 Text GLabel 3300 8700 2    50   Input ~ 0
 SCL
 Text GLabel 3300 8800 2    50   Input ~ 0
 SDA
-Text GLabel 3300 8100 2    50   Input ~ 0
-LED
-Text GLabel 3300 9700 2    50   Input ~ 0
-enc-B
-Text GLabel 3300 10300 2    50   Input ~ 0
+Text GLabel 3300 10000 2    50   Input ~ 0
 D-
 Text GLabel 3300 9800 2    50   Input ~ 0
 D+
@@ -2829,49 +2817,43 @@ F 3 "" H 14350 8150 50  0001 C CNN
 	1    14350 8150
 	0    1    1    0   
 $EndComp
-Text GLabel 3300 6900 2    50   Input ~ 0
+Text GLabel 3300 8100 2    50   Input ~ 0
 row0
-Text GLabel 3300 7000 2    50   Input ~ 0
+Text GLabel 3850 7500 2    50   Input ~ 0
 row1
-Text GLabel 3300 7100 2    50   Input ~ 0
+Text GLabel 3850 7600 2    50   Input ~ 0
 row2
-Text GLabel 3300 7200 2    50   Input ~ 0
+Text GLabel 3850 7700 2    50   Input ~ 0
 row3
-Text GLabel 3300 7300 2    50   Input ~ 0
+Text GLabel 3850 7800 2    50   Input ~ 0
 row4
-Text GLabel 3300 7400 2    50   Input ~ 0
+Text GLabel 3300 10300 2    50   Input ~ 0
 col0
-Text GLabel 3300 7500 2    50   Input ~ 0
+Text GLabel 3650 8900 2    50   Input ~ 0
 col1
-Text GLabel 3300 7600 2    50   Input ~ 0
-col2
-Text GLabel 3300 7800 2    50   Input ~ 0
-col3
-Text GLabel 3300 7900 2    50   Input ~ 0
-col4
-Text GLabel 3300 8000 2    50   Input ~ 0
-col5
-Text GLabel 3300 8200 2    50   Input ~ 0
-col6
 Text GLabel 3300 8900 2    50   Input ~ 0
-col7
+col2
 Text GLabel 3300 9000 2    50   Input ~ 0
-col8
-Text GLabel 3300 9100 2    50   Input ~ 0
-col9
-Text GLabel 3300 9200 2    50   Input ~ 0
-col10
-Text GLabel 3300 9300 2    50   Input ~ 0
-col11
+col3
 Text GLabel 3300 9400 2    50   Input ~ 0
+col7
+Text GLabel 3300 7600 2    50   Input ~ 0
+col8
+Text GLabel 3300 7500 2    50   Input ~ 0
+col9
+Text GLabel 3300 7400 2    50   Input ~ 0
+col10
+Text GLabel 3300 7300 2    50   Input ~ 0
+col11
+Text GLabel 3300 7200 2    50   Input ~ 0
 col12
-Text GLabel 3300 9900 2    50   Input ~ 0
+Text GLabel 3300 7100 2    50   Input ~ 0
 col13
-Text GLabel 3300 10000 2    50   Input ~ 0
+Text GLabel 3300 7000 2    50   Input ~ 0
 col14
-Text GLabel 3300 9600 2    50   Input ~ 0
+Text GLabel 3300 7800 2    50   Input ~ 0
 enc-A
-NoConn ~ 3300 10100
+NoConn ~ 3300 9900
 $Comp
 L Keyboard:MX Y1
 U 1 1 5F15D34F
@@ -2981,4 +2963,23 @@ Connection ~ 6300 4950
 Wire Wire Line
 	9250 4950 9750 4950
 Connection ~ 9250 4950
+Wire Wire Line
+	6300 1850 6800 1850
+Connection ~ 6300 1850
+Text GLabel 3300 9300 2    50   Input ~ 0
+col6
+Text GLabel 3300 9200 2    50   Input ~ 0
+col5
+Text GLabel 3300 9100 2    50   Input ~ 0
+col4
+Text GLabel 3300 7900 2    50   Input ~ 0
+enc-B
+Text GLabel 3900 8150 2    50   Input ~ 0
+LED
+Text GLabel 3300 8500 2    50   Input ~ 0
+SCK
+Text GLabel 3300 8300 2    50   Input ~ 0
+MOSI
+Text GLabel 3300 8400 2    50   Input ~ 0
+MISO
 $EndSCHEMATC
