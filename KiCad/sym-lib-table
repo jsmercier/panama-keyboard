@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Keyboard)(type Legacy)(uri ${KIPRJMOD}/lib/Keyboard.lib)(options "")(descr "Some additionnal components for keyboards"))
+  (lib (name panama-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/panama-keyboard-rescue.lib)(options "")(descr ""))
 )
